@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="3408x4m.NetWire" Publisher="CN=4149BBA8-1E6F-404D-BBD7-7D9174B1C9BA" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Net Wire</DisplayName>
+    <PublisherDisplayName>x4m</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="NetWireRT.App">
+      <VisualElements DisplayName="Net Wire" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="NetWireRT" ForegroundText="light" BackgroundColor="#000000">
+        <DefaultTile ShowName="allLogos" ShortName="Net Wire" WideLogo="Assets\WideLogo.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

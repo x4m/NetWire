@@ -1,0 +1,40 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Volleyball.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="VOLLEYBALL" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="Very simple volleyball" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle2Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <StackPanel x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock Text="This game is intended to play with a friend. It was written to demonstrate Windows Phone programming via C# 16.02.2013 at Ural Federal University. Radiotechnical faculty is a champion." TextWrapping="Wrap"></TextBlock>
+            <TextBlock Text="Source code is available among other programms at http://sourceforge.net/p/netwire" TextWrapping="Wrap"></TextBlock>
+            <CheckBox x:Name="ai"><TextBlock Text="AI for left player"></TextBlock></CheckBox>
+            <!--Create a single button to navigate to the second page which is rendered with the XNA Framework-->
+            <Button Height="100" Content="Tap here to play" Click="Button_Click" />
+            
+        </StackPanel>
+    </Grid>
+ 
+</phone:PhoneApplicationPage>

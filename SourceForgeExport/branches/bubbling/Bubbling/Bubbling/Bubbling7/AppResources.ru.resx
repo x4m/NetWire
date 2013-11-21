@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>add</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menu Item</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MY APPLICATION</value>
+  </data>
+  <data name="GeometryExtensions_Paint_Bubbled_with_trial_BUBBLING_UNDRESSER_WP_App__Please_consider_buying_app_" xml:space="preserve">
+    <value>Запусзырено демо-версией BUBBLING UNDRESSER для Windows Phoe. Пожалуйста, не забудьте купить полное приложение.</value>
+  </data>
+  <data name="GeometryExtensions_UpdateTile_BUBBLING_UNDRESSER" xml:space="preserve">
+    <value>BUBBLING UNDRESSER</value>
+  </data>
+  <data name="InfoPage_Bubbles_count" xml:space="preserve">
+    <value>Число пузырей</value>
+  </data>
+  <data name="InfoPage_Contact_author_via_e_mail" xml:space="preserve">
+    <value>Связатся с автором почтой</value>
+  </data>
+  <data name="InfoPage_Fill_color" xml:space="preserve">
+    <value>Цвет заполнения</value>
+  </data>
+  <data name="InfoPage_GetVersionNumber_unknown" xml:space="preserve">
+    <value>неизвестна</value>
+  </data>
+  <data name="InfoPage_InfoPage_black" xml:space="preserve">
+    <value>чёрный</value>
+  </data>
+  <data name="InfoPage_InfoPage_blue" xml:space="preserve">
+    <value>синий</value>
+  </data>
+  <data name="InfoPage_InfoPage_brown" xml:space="preserve">
+    <value>коричневый</value>
+  </data>
+  <data name="InfoPage_InfoPage_current" xml:space="preserve">
+    <value>оставить как есть</value>
+  </data>
+  <data name="InfoPage_InfoPage_cyan" xml:space="preserve">
+    <value>сине-зелёный</value>
+  </data>
+  <data name="InfoPage_InfoPage_green" xml:space="preserve">
+    <value>зелёный</value>
+  </data>
+  <data name="InfoPage_InfoPage_magenta" xml:space="preserve">
+    <value>маджента</value>
+  </data>
+  <data name="InfoPage_InfoPage_OnLoaded_Version_" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="InfoPage_InfoPage_orange" xml:space="preserve">
+    <value>ораньжевый</value>
+  </data>
+  <data name="InfoPage_InfoPage_purple" xml:space="preserve">
+    <value>пурпурный</value>
+  </data>
+  <data name="InfoPage_InfoPage_red" xml:space="preserve">
+    <value>красный</value>
+  </data>
+  <data name="InfoPage_InfoPage_transparent" xml:space="preserve">
+    <value>прозрачный</value>
+  </data>
+  <data name="InfoPage_InfoPage_white" xml:space="preserve">
+    <value>белый</value>
+  </data>
+  <data name="InfoPage_InfoPage_yellow" xml:space="preserve">
+    <value>жёлтый</value>
+  </data>
+  <data name="InfoPage_info_settings" xml:space="preserve">
+    <value>инфо+настройки</value>
+  </data>
+  <data name="InfoPage_Rate_and_review" xml:space="preserve">
+    <value>Оценить</value>
+  </data>
+  <data name="InfoPage_versionBox_Version_" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="MainPage_Check_how_it_looks_like" xml:space="preserve">
+    <value>Посмотреть результат</value>
+  </data>
+  <data name="MainPage_If_you_want_to_crop" xml:space="preserve">
+    <value>Если вы хотите вырезать часть изображения, воспользуйтесь функцией редактирования фото хаба.</value>
+  </data>
+  <data name="MainPage_imagine_" xml:space="preserve">
+    <value>запузырим!</value>
+  </data>
+  <data name="MainPage_Info" xml:space="preserve">
+    <value>Инфо</value>
+  </data>
+  <data name="MainPage_Load_photo_from_library_or_shoot" xml:space="preserve">
+    <value>Выбрать фото или сфотографировать</value>
+  </data>
+  <data name="MainPage_Press_Bubble_button_to_preview_bubbles_" xml:space="preserve">
+    <value>Нажмите Запузырить, чтобы увидеть пузыри</value>
+  </data>
+  <data name="MainPage_Rate_and_review" xml:space="preserve">
+    <value>Оценить</value>
+  </data>
+  <data name="MainPage_To_save_photos_from_Facebook" xml:space="preserve">
+    <value>Чтобы запузырить фото из vk или fb откроыйте сайт в Internet Explorer, найдтите фото, нажмите на него и в появившемся меню выберите "Сохранить"</value>
+  </data>
+  <data name="MainPage_Use_edit_tool_to_mark_dressed_areas" xml:space="preserve">
+    <value>Выделите одетые фрагменты</value>
+  </data>
+  <data name="MainPage_Use_search_tool_to_navigate_across_image" xml:space="preserve">
+    <value>Увеличивайте и передвигайте фото</value>
+  </data>
+  <data name="MainPage_You_can_undress_anyone" xml:space="preserve">
+    <value>Вы можете снять любой купальник c кого угодно силой воображения с приложением BUBBLING UNDRESSER. Сделайте фотографию, выделите одетые фрагменты и вы увидите виртуально раздетую картинку.</value>
+  </data>
+  <data name="PhotoEdit_AddFinishButton_Show_result" xml:space="preserve">
+    <value>Показать результат</value>
+  </data>
+  <data name="PhotoEdit_CreateMenu_Bubble" xml:space="preserve">
+    <value>пузырить!</value>
+  </data>
+  <data name="PhotoEdit_CreateMenu_Edit_area" xml:space="preserve">
+    <value>Выделить одежду</value>
+  </data>
+  <data name="PhotoEdit_CreateMenu_Search" xml:space="preserve">
+    <value>Навигация</value>
+  </data>
+  <data name="PhotoEdit_encircle_Encircle_covered_areas" xml:space="preserve">
+    <value>Выделите одежду</value>
+  </data>
+  <data name="PhotoEdit_FinishButtonClick_BUBBLE_UNDRESSER" xml:space="preserve">
+    <value>BUBBLE UNDRESSER</value>
+  </data>
+  <data name="PhotoEdit_FinishButtonClick_This_is_a_trial_version" xml:space="preserve">
+    <value>Это демо версия BUBBLE UNDRESSER. Через два дня использования демо-версии вы можете смотреть результат только поделившись им в сети. Выложить результат в социальные сети?</value>
+  </data>
+  <data name="PhotoEdit_move_Move_picture" xml:space="preserve">
+    <value>Передвигайтие фото</value>
+  </data>
+  <data name="PhotoEdit_OnBubbleButtonOnClick_Bubbling____" xml:space="preserve">
+    <value>Пузырим ...</value>
+  </data>
+  <data name="PhotoEdit_Status_Encircle_covered_areas" xml:space="preserve">
+    <value>Выделите одежду</value>
+  </data>
+  <data name="PhotoEdit_TouchOnFrameReported_Application_error" xml:space="preserve">
+    <value>Произошла непредвиденная ошибка...</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ru</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ViewResult_CreateMenu_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="ViewResult_CreateMenu_Share" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
+  <data name="ViewResult_savebuttonClick_Photo__0__saved_to_camera_roll" xml:space="preserve">
+    <value>Фото {0} сохранено</value>
+  </data>
+  <data name="ViewResult_Status_Do_not_forget_to_share_interesting_results" xml:space="preserve">
+    <value>Не забудьте поделиться интересными результатами в сети</value>
+  </data>
+</root>
