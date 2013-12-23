@@ -221,17 +221,6 @@ namespace NetWireUltimate
                 if(!store.FileExists(adshown))
                 {
                     store.CreateFile(adshown).Dispose();
-                    var popUp = new PopUp() {Width = ActualWidth, Height = ActualHeight/2};
-
-                    var Mypopup = new Popup
-                        {
-                            Child = popUp
-                        };
-                    popUp.ok.Click += (o,o1) => { Mypopup.IsOpen = false; };
-                    Mypopup.Height = ActualHeight/2;
-                    Mypopup.Width = ActualWidth;
-                    Mypopup.VerticalOffset = ActualHeight / 5;
-                    Mypopup.IsOpen = true;
                 }
             }
         }

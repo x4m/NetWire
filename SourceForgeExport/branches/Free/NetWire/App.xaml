@@ -7,8 +7,8 @@
 
     <!--Application Resources-->
     <Application.Resources>
-        <netWire:LocalizedStrings xmlns:local="clr-namespace:NetWireUltimate" x:Key="LocalizedStrings" />
-        <netWire:Hint xmlns:local="clr-namespace:NetWireUltimate" x:Key="Hint" />
+        <netWire:LocalizedStrings x:Key="LocalizedStrings" />
+        <netWire:Hint x:Key="Hint"></netWire:Hint>
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>

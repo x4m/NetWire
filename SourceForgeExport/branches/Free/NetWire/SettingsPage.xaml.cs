@@ -38,7 +38,7 @@ namespace NetWireUltimate
                                           }
                                       }
                                       BoxControl.UseAnimation = _useAnimation.IsChecked == true;
-                                      //Hint.Instance.IsVisible = _showHint.IsChecked == true;
+                                      Hint.Instance.IsVisible = _showHint.IsChecked == true;
                                       JournalEntry prev = NavigationService.BackStack.FirstOrDefault();
                                       if (prev != null && prev.Source.ToString().Contains("/MainPage.xaml"))
                                           NavigationService.GoBack();

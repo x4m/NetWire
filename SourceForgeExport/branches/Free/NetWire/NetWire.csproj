@@ -199,6 +199,7 @@
     <None Include="Properties\WMAppManifest.xml">
       <SubType>Designer</SubType>
     </None>
+    <None Include="RateMyAppGuide_v1 1.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicationIcon.png">
@@ -211,12 +212,14 @@
     <Content Include="check.png" />
     <Content Include="delete.png" />
     <Content Include="i.png" />
+    <Content Include="largeTile.png" />
     <Content Include="play.png" />
     <Content Include="README_FIRST.txt" />
     <Content Include="refresh.png" />
     <Content Include="save.png" />
     <Content Include="settings.png" />
     <Content Include="SplashScreenImage.jpg" />
+    <Content Include="SubmissionInfo\cobalt.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
@@ -255,6 +258,9 @@
     <Reference Include="Microsoft.Phone.Controls.Toolkit, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b772ad94eb9ca604, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\WPtoolkit.4.2012.10.30\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="RateMyApp">
+      <HintPath>..\packages\RateMyApp.1.1.0\lib\sl4-wp71\RateMyApp.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />

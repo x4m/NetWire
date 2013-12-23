@@ -7,7 +7,7 @@
     <Language code="es" />
     <Language code="it" />
   </Languages>
-  <App xmlns="" ProductID="{1363c546-d31f-4045-9c1f-70932b918750}" Title="Net Wire" RuntimeType="Silverlight" Version="1.5.0.0" Genre="apps.normal" Author="x4m" Description="Net Wire Ultimate" Publisher="x4m" PublisherID="{5fd8a404-1b46-44fa-ad42-76541441fcd8}">
+  <App xmlns="" ProductID="{1363c546-d31f-4045-9c1f-70932b918750}" Title="Net Wire" RuntimeType="Silverlight" Version="1.8.0.0" Genre="apps.normal" Author="x4m" Description="Net Wire" Publisher="x4m" PublisherID="{5fd8a404-1b46-44fa-ad42-76541441fcd8}">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>
     </Capabilities>
@@ -27,9 +27,13 @@
           </BackBackgroundImageURI>
           <BackTitle>
           </BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">largeTile.png</LargeBackgroundImageURI>
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
+          </LargeBackBackgroundImageURI>
           <DeviceLockImageURI>
           </DeviceLockImageURI>
-          <HasLarge>false</HasLarge>
+          <HasLarge>True</HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>

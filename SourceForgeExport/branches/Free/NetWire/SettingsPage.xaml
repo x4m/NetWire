@@ -54,9 +54,9 @@
             <CheckBox x:Name="_useAnimation">
                 <TextBlock Text="{Binding Path=AppResources.UseAnimation, Source={StaticResource LocalizedStrings}}"></TextBlock>
             </CheckBox>
-            <!--<CheckBox x:Name="_showHint">
+            <CheckBox x:Name="_showHint">
                 <TextBlock Text="{Binding Path=AppResources.ShowHint, Source={StaticResource LocalizedStrings}}"></TextBlock>
-            </CheckBox>-->
+            </CheckBox>
             <CheckBox x:Name="_mirror">
                 <TextBlock Text="{Binding Path=AppResources.Mirror, Source={StaticResource LocalizedStrings}}"></TextBlock>
             </CheckBox>
